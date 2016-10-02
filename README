@@ -1,0 +1,45 @@
+### KU Wordcut Installation Instructions ###
+### Copyright (C) 2004 Kasetsart University, NAiST Laboratory.
+### Author: Sutee Sudprasert <sutee@vivaldi.cpe.ku.ac.th>
+
+
+Introduction
+~~~~~~~~~~~~
+	KU wordcut is thai word segmentor that is difference from existing segmentor such as CTTEX or SWATH.
+	The main objective of CTTEXT or SWATH is wrapping the text then speed up of computing is the most
+	important then accuracy or precision may be ommited. By the way, some tasks such as NLP, prefers
+	more precision than speed up of computing. In the mention before, we will attempt to build the segmentor
+	that is suitable for NLP tasks. Our segmentor can reduce some problem that be ommited in CTTEX or SWATH 
+	such as unknown recognition and some case of boundary ambiguity.
+
+Documentation
+~~~~~~~~~~~~~
+	The algorithm using in this segmentor have been proposed in NCSEC 2003 processing (Thai word segmentation 
+	based-on Local and Global Unsupervised Learning). 
+
+Requirement
+~~~~~~~~~~~~~
+	python 2.5 or above
+
+Installation
+~~~~~~~~~~~~~
+	using the followed command on command line 
+
+	python setup.py install
+
+How to use
+~~~~~~~~~~~~~
+	on command line use
+
+	kucut [option] <filename>
+
+	<filename> is input filename.
+	[option] 
+		--line=?? for replace space with some special character, default is "/n"
+
+Report Bug & Comment
+~~~~~~~~~~~~~~~~~~~~
+	E-mail : <sutee@vivaldi.cpe.ku.ac.th> or <cpe11_sutee@yahoo.com>
+	MSN : cpe11_sutee@hotmail.com
+	ICQ : 88938507
+	

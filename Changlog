@@ -1,0 +1,16 @@
+2010-12-12  Vee Satayamas <vsatayamas@gmail.com>
+    * Merged with a version duplicated words in output bugs 
+    fixed by Sutee Sudprasert 
+    
+2008-10-16  Vee Satayamas <vsatayamas@gmail.com>
+	* README: improved by Therawat
+
+2007-03-03  Vee Satayamas <vsatayamas@gmail.com>
+	* kucut/AIMA/games.py: removed since Python 2.5 crash when compiling it.
+
+2007-01-25  Vee Satayamas <vsatayamas@gmail.com>
+    * kucut/kucut_cli.py: use train.skip.cut.db as default database
+    * kucut/wordcut.py: import bsddb3 and import bsddb support
+
+2007-01-24  Vee Satayamas <vsatayamas@gmail.com>
+    * create installation script
